@@ -1,0 +1,297 @@
+INSERT INTO Autori
+VALUES ('J.K.Rowling')
+
+INSERT INTO Autori
+VALUES ('George R.R. Martin')
+
+INSERT INTO Autori
+VALUES ('Ion Creanga')
+
+INSERT INTO Autori
+VALUES ('Ioan Slavici')
+
+INSERT INTO Autori
+VALUES ('Dale Carnegie')
+
+INSERT INTO Autori
+VALUES ('Mark Twain')
+
+INSERT INTO Autori
+VALUES ('Mircea Eliade')
+
+INSERT INTO Autori
+VALUES ('G. Calinescu')
+
+INSERT INTO Autori
+VALUES ('Liviu Rebreanu')
+
+INSERT INTO Autori
+VALUES ('Monica Lovinescu')
+
+
+
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Booklet')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Art')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Humanitas')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Litera')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('MyBestseller')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Uniunea Scriitorilor')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Teora')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Corint')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Ceres')
+
+INSERT INTO Edituri(Nume_Editura)
+VALUES ('Accent')
+
+
+
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Anticariat','0732835507')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Books Unlimited','0712335507')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Amazon','0708943257')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Atlas Group Distribution','0726500893')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Nicol Cart','0754831911')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Larry Cart','0774246411')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Abstract Media','0749961400')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Prolibris','0757285710')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Bibliopolis','0735580587')
+
+INSERT INTO Distribuitori(Nume_Distribuitor,Nr_Telefon)
+VALUES ('Cartexim','0707140722')
+
+
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('vanzator','Corina Draghici','Bucuresti','0733084440','corina.draghici@gmail.com', '2010-04-23',2800) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('vanzator','Adina Olteanu','Bucuresti','0733081234','adina.olteanu@gmail.com', '2012-05-06',2600) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('vanzator','Larisa Dobrescu','Bucuresti','0712384440','larisa.dobrescu@gmail.com', '2006-07-19',3000) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('vanzator','Mara Ionescu','Bucuresti','0756081234','mara.ionescu@gmail.com', '2010-04-23',2800) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('vanzator','Corina Popescu','Bucuresti','0756884440','corina.popescu@gmail.com', '2007-04-12',3000) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('responsabil aranjare rafturi','Lucian Pavel','Bucuresti','0758800460','lucian.pavel@gmail.com', '2007-04-12',3000) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('responsabil aranjare rafturi','Horia Nita','Bucuresti','0732704415','horia.nita@gmail.com', '2012-04-23',2800) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('responsabil aranjare rafturi','Gabriel Manole','Bucuresti','0768164055','gabriel.manole@gmail.com', '2017-05-20',2400) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('responsabil aranjare rafturi','Sofia Popescu','Bucuresti','0733567892','sofia.popescu@gmail.com', '2019-02-18',2200) 
+
+INSERT INTO Angajati(Post,Nume_Angajat,Adresa_Angajat,Nr_Telefon,Mail_Angajat,Data_Angajarii,Salariu)
+VALUES ('responsabil aranjare rafturi','Madalin Sava','Bucuresti','0743216780','madalin.sava@gmail.com', '2014-01-19',2500) 
+
+
+
+
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Catalin Nistor','catalin.nistor@gmail.com','Pitesti','0755645063')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Ionut Matei','ionut.matei@gmail.com','Bucuresti','0798783911')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Camelia Chirila','camelia.chirila@gmail.com','Campulung','0706316421')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Robert Dinu','robert.dinu@gmail.com','Pitesti','0775906483')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Mihaela Dinu','mihaela.dinu@gmail.com','Iasi','0755234063')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Olivia Chirila','olivia.chirila@gmail.com','Brasov','0756745063')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Alexandru Rusu','alex.rusu@gmail.com','Brasov','0755645234')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Alexandru Marin','alex.marin@gmail.com','Campulung','0755645112')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Catalin Cristian','catalin.cristian@gmail.com','Bucuresti','0755234063')
+
+INSERT INTO Clienti(Nume_Client,Mail_Client,Adresa_Client,Nr_Telefon)
+VALUES ('Stefania Paun','stefania.paun@gmail.com','Bucuresti','0712345063')
+
+
+
+
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Harry Potter',1)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Cantec de gheata si foc',2)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Amintiri din copilarie',3)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Mara',4)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Moara cu noroc',4)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Secretele succesului',5)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Aventurile lui Tom Sawyer',6)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Sub cerul liber',6)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Maitreyi',7)
+
+INSERT INTO Carti(Titlu,Id_Editura)
+VALUES ('Romanul adolescentului miop',7)
+
+
+
+
+
+
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Piatra filosofala',1,1,'A',1,'1997-06-26',10,1,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Camera Secretelor',2,2,'B',1,'1998-07-02',20,1,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Prizonierul din Azkaban',3,3,'C',1,'1998-07-08',10,1,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Pocalul de foc',4,4,'D',1,'2000-07-08',30,1,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Ordinul Pheonix',5,5,'E',1,'2003-06-21',25,1,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Printul semipur',6,6,'F',1,'2005-07-16',15,1,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (1,'Talismanele mortii',7,7,'G',1,'2007-02-01',10,1,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (2,'Urzeala tronurilor',1,1,'A',2,'1996-08-01',17,2,75)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (2,'Inclestarea regilor',2,2,'B',2,'1998-05-16',10,2,50)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (2,'Dansul dragonilor',4,4,'C',2,'2011-07-12',10,2,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (2,'Festinul ciorilor',3,3,'D',2,'2005-10-17',10,1,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (2,'Lumea de gheata si foc',5,5,'E',2,'2014-10-28',15,1,30)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (3,'Amintiri din copilarie',1,1,'A',3,'1892-04-02',10,4,12)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (4,'Mara',1,2,'B',4,'1906-08-06',20,5,20)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (5,'Moara cu noroc',1,3,'C',4,'1881-07-12',15,7,30)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (6,'Secretele succesului',1,4,'D',5,'1936-10-20',10,9,70)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (7,'Aventurile lui Tom Sawyer',1,5,'E',6,'1876-07-10',10,8,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (8,'Sub cerul liber',1,6,'F',6,'1872-02-04',10,8,45)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (9,'Maitreyi',1,7,'G',7,'1933-05-07',17,6,40)
+
+INSERT INTO Volume(Id_Carte,Titlu_Volum, Nr_Volum,Rand,Etaj,Id_Autor,Data_Aparitiei,Nr_Stoc,Id_Distribuitor,Pret)
+VALUES (10,'Romanul adolescentului miop',1,8,'H',7,'1989-01-06',10,7,30)
+
+
+
+
+
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (4,7,'-',5)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum,Nr_Stele)
+VALUES (3,1,4)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (3,9,'-',2)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum,Nr_Stele)
+VALUES (2,11,1)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (7,3,'-',3)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (9,11,'-',2)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Nr_Stele)
+VALUES (1,10,4)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Nr_Stele)
+VALUES (1,4,2)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (9,2,'-',5)
+
+INSERT INTO Recenzii(Id_Client, Id_Volum, Recenzie,Nr_Stele)
+VALUES (5,19,'-',5)
+

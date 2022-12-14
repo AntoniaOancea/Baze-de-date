@@ -1,0 +1,91 @@
+CREATE TABLE Autori
+(
+Id_Autor int identity(1,1) PRIMARY KEY,
+Nume_Autor varchar(max) NOT NULL
+)
+
+CREATE TABLE Edituri
+(
+Id_Editura int identity(1,1) PRIMARY KEY,
+Nume_Editura varchar(max) NOT NULL,
+)
+
+CREATE TABLE Distribuitori
+(
+Id_Distribuitor int identity(1,1) PRIMARY KEY,
+Nume_Distribuitor varchar(max) NOT NULL,
+Nr_Telefon varchar(max) NOT NULL
+)
+
+CREATE TABLE Angajati
+(
+Id_Angajat int DEFAULT (NEXT VALUE FOR Secventa),
+Post varchar(max) NOT NULL,
+Nume_Angajat varchar(max) NOT NULL,
+Adresa_Angajat varchar(max),
+Nr_Telefon varchar(max),
+Mail_Angajat varchar(max),
+Data_Angajarii datetime NOT NULL,
+Salariu int NOT NULL,
+PRIMARY KEY(Id_Angajat)
+)
+
+CREATE TABLE Clienti
+(
+Id_Client int identity(1,1) PRIMARY KEY,
+Nume_Client varchar(max) NOT NULL,
+Mail_Client varchar(max) ,
+Adresa_Client varchar(max),
+Nr_Telefon varchar(max)
+)
+
+CREATE TABLE Carti
+(
+Id_Carte int identity(1,1) PRIMARY KEY,
+Titlu varchar(max) NOT NULL,
+Id_Editura int,
+FOREIGN KEY(Id_Editura) REFERENCES Edituri(Id_Editura)
+)
+
+CREATE TABLE Volume
+(
+	Id_Volum int identity(1,1) PRIMARY KEY,
+	Id_Carte int ,
+	FOREIGN KEY(Id_Carte) REFERENCES Carti(Id_Carte),
+	Titlu_Volum varchar(max) ,
+	Nr_Volum int NOT NULL,
+	Rand int ,
+	Etaj varchar(1),
+	Id_Autor int NOT NULL,
+	FOREIGN KEY(Id_Autor) REFERENCES Autori(Id_Autor),
+	Data_Aparitiei datetime NOT NULL,
+	Nr_Stoc int NOT NULL,
+	Id_Distribuitor int NOT NULL,
+	FOREIGN KEY(Id_Distribuitor) REFERENCES Distribuitori(Id_Distribuitor),
+	Pret int
+)
+
+CREATE TABLE Recenzii
+(
+Id_Recenzie int identity(1,1) PRIMARY KEY,
+Id_Client int NOT NULL,
+Id_Volum int NOT NULL,
+Recenzie varchar(max) ,
+Nr_Stele int NOT NULL,
+FOREIGN KEY(Id_Client) REFERENCES Clienti(Id_Client),
+FOREIGN KEY(Id_Volum) REFERENCES Volume(Id_Volum)
+)
+
+
+
+SELECT Id_Recenzie,Id_Volum
+INTO Recenzie_Volum
+FROM Recenzii
+
+SELECT Id_Carte,Id_Volum
+INTO Carte_Volum
+FROM Volume
+
+SELECT Id_Distribuitor,Id_Volum
+INTO Distribuitor_Volum
+FROM Volume
